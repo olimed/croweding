@@ -1,0 +1,18 @@
+{
+    "app": {
+        "host": "localhost",
+        "port": 8023,
+        "schema": "http",
+        "url": "http://localhost:8023"
+    },
+
+    "session": {
+        "secret": "it:secret",
+        "key": "some",
+        "cookie": {
+            "path": "/",
+            "httpOnly": true,
+            "maxAge": null
+        }
+    }
+}
